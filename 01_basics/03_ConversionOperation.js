@@ -19,5 +19,23 @@ let isActiveVal = Boolean(isActive)
 
 let someNumber = 33
 let someNumberCheck = String(someNumber)
-console.log(someNumber);
-console.log(typeof someNumberCheck);
+//console.log(someNumber);
+//console.log(typeof someNumberCheck);
+
+//*********************************************Oerations*************************************\\
+
+let value = 3;
+let negValue = -value;
+//console.log(negValue);
+
+let str1 = "Hello ";
+let str2 = "Shukla Ji";
+//console.log(`${str1} ${str2}`);
+
+let x = 9;
+let y;
+y = ++x;
+
+console.log(x);
+console.log(y);
+

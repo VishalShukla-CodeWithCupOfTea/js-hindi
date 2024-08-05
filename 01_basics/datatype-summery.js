@@ -27,10 +27,32 @@ let myObj = {
     Age: 22,
 } 
 const myFunction = function() {
-    console.log("Hello");
+    //console.log("Hello");
 }
 
 
 //*****************************************************Memory type and allocation*********************** */
 
 // 1- Stack (Primitive type) 2- Heap (Non-Primitive)
+
+let myYTName = "vishal";
+let myAnotherName = myYTName;
+
+myAnotherName = "Shukla";
+//console.log(myYTName)
+//console.log(myAnotherName)
+
+let userOne = {
+    Email: "vishal@google.com",
+    UpiId: "vishal@ybl12",
+}
+
+let userTwo = userOne;
+
+userTwo.Email = "shukla@nw18.com";
+console.log(userOne.Email);
+console.log(userTwo.Email);
+
+console.log(userOne);
+console.log(userTwo);
+
